@@ -1,0 +1,9 @@
+app: KMyMoney
+binpatch: true
+
+ingredients:
+  dist: DIST
+  sources: 
+    - deb http://archive.ubuntu.com/ubuntu/ DIST main universe
+script:
+  - sudo apt-get install breeze
