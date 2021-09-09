@@ -3,7 +3,8 @@ binpatch: true
 
 ingredients:
   dist: DIST
+  packages:
+    -  kmymoney
+    - breeze
   sources: 
     - deb http://archive.ubuntu.com/ubuntu/ DIST main universe
-script:
-  - sudo apt-get install breeze
