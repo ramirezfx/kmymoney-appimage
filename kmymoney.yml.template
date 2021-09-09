@@ -4,7 +4,7 @@ binpatch: true
 ingredients:
   dist: DIST
   packages:
-    -  kmymoney
+    - kmymoney
     - breeze
   sources: 
     - deb http://archive.ubuntu.com/ubuntu/ DIST main universe
